@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "231208969402",
+    "firebase_url": "https://excelcior-2120e.firebaseio.com",
+    "project_id": "excelcior-2120e",
+    "storage_bucket": "excelcior-2120e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231208969402:android:13c3c6a65bcbec53",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231208969402-9jsr9ok51frgu0er9ro823ac3ft7igdg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "babe55489700fb2cb0837220b9de4851b6a53259"
+          }
+        },
+        {
+          "client_id": "231208969402-2qst5ctn3riqvsdhk846ikmu1ilhthok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFKQSKwvQ1us4_8gRSo3S8KFWevxG61Tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231208969402-2qst5ctn3riqvsdhk846ikmu1ilhthok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

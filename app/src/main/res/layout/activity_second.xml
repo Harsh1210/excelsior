@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/group3_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="12dp"
+        android:text="Priority 3"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toTopOf="@+id/Group4_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/group2_btn" />
+
+    <Button
+        android:id="@+id/group1_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Priority 1"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toTopOf="@+id/group2_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logout_btn" />
+
+    <Button
+        android:id="@+id/group2_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="10dp"
+        android:text="Priority 2"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toTopOf="@+id/group3_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/group1_btn" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="61dp"
+        android:text="You are logged in"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Group4_btn" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="79dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="17dp"
+        android:text="Logout"
+        app:layout_constraintBottom_toTopOf="@+id/group1_btn"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Group4_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="108dp"
+        android:text="General Message"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/group3_btn" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="10dp"
+        android:background="#0066AE"
+        android:text="Messages"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textIsSelectable="false"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/group1_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@android:style/Widget.Material.ImageButton"
+        android:layout_width="75dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="88dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/unnamed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
